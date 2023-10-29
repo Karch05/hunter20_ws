@@ -1,0 +1,120 @@
+[0.011s] Invoking command in '/home/karch/ws/hunter20_ws/build/ugv_sdk': /usr/bin/cmake /home/karch/ws/hunter20_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/karch/ws/hunter20_ws/install/ugv_sdk
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.097s] -- The CXX compiler identification is GNU 11.4.0
+[0.104s] -- Detecting C compiler ABI info
+[0.161s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.232s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.239s] -- Build package with cmake
+[0.239s] -- Setting build type to 'Release' as none was specified.
+[0.239s] -- Tests will not be built
+[0.241s] -- Looking for pthread.h
+[0.299s] -- Looking for pthread.h - found
+[0.299s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.360s] -- Found Threads: TRUE  
+[0.362s] -- Project will be installed to /home/karch/ws/hunter20_ws/install/ugv_sdk with 'make install'
+[0.362s] --  - To install LIB components to /home/karch/ws/hunter20_ws/install/ugv_sdk/lib
+[0.362s] --  - To install BIN components to /home/karch/ws/hunter20_ws/install/ugv_sdk/bin
+[0.362s] --  - To install INCLUDE components to /home/karch/ws/hunter20_ws/install/ugv_sdk/include
+[0.362s] --  - To install CMAKE components to /home/karch/ws/hunter20_ws/install/ugv_sdk/share/cmake/ugv_sdk
+[0.368s] -- Configuring done
+[0.380s] -- Generating done
+[0.381s] [33mCMake Warning:
+[0.381s]   Manually-specified variables were not used by the project:
+[0.381s] 
+[0.381s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[0.381s]     CATKIN_SYMLINK_INSTALL
+[0.381s] 
+[0.381s] [0m
+[0.381s] -- Build files have been written to: /home/karch/ws/hunter20_ws/build/ugv_sdk
+[0.386s] Invoked command in '/home/karch/ws/hunter20_ws/build/ugv_sdk' returned '0': /usr/bin/cmake /home/karch/ws/hunter20_ws/src/ugv_sdk -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/karch/ws/hunter20_ws/install/ugv_sdk
+[0.388s] Invoking command in '/home/karch/ws/hunter20_ws/build/ugv_sdk': /usr/bin/cmake --build /home/karch/ws/hunter20_ws/build/ugv_sdk -- -j16 -l16
+[0.431s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/hunter_robot.cpp.o[0m
+[0.431s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/scout_robot.cpp.o[0m
+[0.431s] [ 14%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/utilities/protocol_detector.cpp.o[0m
+[0.431s] [ 18%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_serial.cpp.o[0m
+[0.431s] [ 18%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/async_port/async_can.cpp.o[0m
+[0.431s] [ 22%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/bunker_robot.cpp.o[0m
+[0.432s] [ 25%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/mobile_robot/ranger_robot.cpp.o[0m
+[0.433s] [ 33%] [32mBuilding CXX object CMakeFiles/ugv_sdk.dir/src/protocol_v2/protocol_v2_parser.cpp.o[0m
+[0.433s] [ 33%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v2/agilex_msg_parser_v2.c.o[0m
+[0.437s] [ 37%] [32mBuilding C object CMakeFiles/ugv_sdk.dir/src/protocol_v1/agilex_msg_parser_v1.c.o[0m
+[4.188s] [ 40%] [32m[1mLinking CXX static library lib/libugv_sdk.a[0m
+[4.252s] [ 40%] Built target ugv_sdk
+[4.274s] [ 59%] [32mBuilding CXX object sample/ranger_demo/CMakeFiles/demo_ranger_robot.dir/ranger_robot_demo.cpp.o[0m
+[4.274s] [ 59%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_mini_omni_robot.dir/scout_mini_omni_demo.cpp.o[0m
+[4.274s] [ 59%] [32mBuilding CXX object sample/bunker_demo/CMakeFiles/demo_bunker_robot.dir/bunker_robot_demo.cpp.o[0m
+[4.274s] [ 59%] [32mBuilding CXX object sample/scout_demo/CMakeFiles/demo_scout_robot.dir/scout_robot_demo.cpp.o[0m
+[4.275s] [ 59%] [32mBuilding CXX object sample/tracer_demo/CMakeFiles/demo_tracer_robot.dir/tracer_robot_demo.cpp.o[0m
+[4.275s] [ 62%] [32mBuilding CXX object sample/hunter_demo/CMakeFiles/demo_hunter_robot.dir/hunter_robot_demo.cpp.o[0m
+[4.278s] [ 66%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_protocol_detector.dir/demo_protocol_detector.cpp.o[0m
+[4.280s] [ 70%] [32mBuilding CXX object sample/utils_demo/CMakeFiles/demo_robot_version.dir/demo_robot_version.cpp.o[0m
+[4.857s] [ 74%] [32m[1mLinking CXX executable ../../bin/demo_bunker_robot[0m
+[5.061s] [ 74%] Built target demo_bunker_robot
+[5.534s] [ 77%] [32m[1mLinking CXX executable ../../bin/demo_protocol_detector[0m
+[5.602s] [ 81%] [32m[1mLinking CXX executable ../../bin/demo_robot_version[0m
+[5.678s] [ 85%] [32m[1mLinking CXX executable ../../bin/demo_hunter_robot[0m
+[5.707s] [ 88%] [32m[1mLinking CXX executable ../../bin/demo_scout_robot[0m
+[5.707s] [ 88%] Built target demo_protocol_detector
+[5.735s] [ 92%] [32m[1mLinking CXX executable ../../bin/demo_scout_mini_omni_robot[0m
+[5.798s] [ 92%] Built target demo_robot_version
+[5.834s] [ 92%] Built target demo_hunter_robot
+[5.859s] [ 92%] Built target demo_scout_robot
+[5.874s] [ 92%] Built target demo_scout_mini_omni_robot
+[5.943s] [ 96%] [32m[1mLinking CXX executable ../../bin/demo_tracer_robot[0m
+[6.023s] [100%] [32m[1mLinking CXX executable ../../bin/demo_ranger_robot[0m
+[6.037s] [100%] Built target demo_tracer_robot
+[6.116s] [100%] Built target demo_ranger_robot
+[6.127s] Invoked command in '/home/karch/ws/hunter20_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --build /home/karch/ws/hunter20_ws/build/ugv_sdk -- -j16 -l16
+[6.204s] Invoking command in '/home/karch/ws/hunter20_ws/build/ugv_sdk': /usr/bin/cmake --install /home/karch/ws/hunter20_ws/build/ugv_sdk
+[6.210s] -- Install configuration: "Release"
+[6.210s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/lib/libugv_sdk.a
+[6.211s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk
+[6.211s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot
+[6.211s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/bunker_robot.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/tracer_robot.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/scout_robot.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/hunter_robot.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/mobile_robot/ranger_robot.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/agilex_msg_parser_v1.h
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/robot_limits.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v1/protocol_v1_parser.hpp
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2
+[6.212s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/protocol_v2/protocol_v2_parser.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/scout_base.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/bunker_base.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/ranger_base.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/hunter_base.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/tracer_base.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/robot_base/agilex_base.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_types.h
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/ranger_interface.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/bunker_interface.hpp
+[6.213s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/tracer_interface.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/scout_interface.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/robot_common_interface.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/parser_interface.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/hunter_interface.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/interface/agilex_message.h
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/async_port
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_serial.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/ring_buffer.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/details/async_port/async_can.hpp
+[6.214s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/utilities
+[6.215s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/include/ugv_sdk/utilities/protocol_detector.hpp
+[6.215s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets.cmake
+[6.215s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkTargets-release.cmake
+[6.215s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfig.cmake
+[6.215s] -- Installing: /home/karch/ws/hunter20_ws/install/ugv_sdk/lib/cmake/ugv_sdk/ugv_sdkConfigVersion.cmake
+[6.217s] Invoked command in '/home/karch/ws/hunter20_ws/build/ugv_sdk' returned '0': /usr/bin/cmake --install /home/karch/ws/hunter20_ws/build/ugv_sdk

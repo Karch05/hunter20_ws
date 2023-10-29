@@ -1,0 +1,1 @@
+/home/karch/ws/hunter20_ws/build/hunter_msgs/rosidl_typesupport_introspection_cpp/hunter_msgs/msg/detail/hunter_light_cmd__rosidl_typesupport_introspection_cpp.hpp

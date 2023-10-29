@@ -1,0 +1,1 @@
+/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_msgs/msg/HunterLightCmd.msg

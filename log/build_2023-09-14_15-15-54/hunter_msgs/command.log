@@ -1,0 +1,6 @@
+Invoking command in '/home/karch/ws/hunter20_ws/build/hunter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karch/ws/hunter20_ws/install/hunter_msgs
+Invoked command in '/home/karch/ws/hunter20_ws/build/hunter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/karch/ws/hunter20_ws/install/hunter_msgs
+Invoking command in '/home/karch/ws/hunter20_ws/build/hunter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/karch/ws/hunter20_ws/build/hunter_msgs -- -j16 -l16
+Invoked command in '/home/karch/ws/hunter20_ws/build/hunter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/karch/ws/hunter20_ws/build/hunter_msgs -- -j16 -l16
+Invoking command in '/home/karch/ws/hunter20_ws/build/hunter_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/karch/ws/hunter20_ws/build/hunter_msgs
+Invoked command in '/home/karch/ws/hunter20_ws/build/hunter_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/karch/ws/hunter20_ws/build/hunter_msgs

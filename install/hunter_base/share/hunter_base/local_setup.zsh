@@ -1,0 +1,1 @@
+/home/karch/ws/hunter20_ws/build/hunter_base/ament_cmake_environment_hooks/local_setup.zsh

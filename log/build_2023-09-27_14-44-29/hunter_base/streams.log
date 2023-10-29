@@ -1,0 +1,100 @@
+[0.017s] Invoking command in '/home/karch/ws/hunter20_ws/build/hunter_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/hunter20_ws/install/hunter_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_node/lib:/home/karch/ws/hokuyo_ws/install/urg_node_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_c/lib:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/karch/ws/hunter20_ws/build/hunter_base -- -j16 -l16
+[0.068s] [35m[1mConsolidate compiler generated dependencies of target hunter_base_node[0m
+[0.094s] [ 25%] [32mBuilding CXX object CMakeFiles/hunter_base_node.dir/src/hunter_base_ros.cpp.o[0m
+[0.353s] In file included from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:21[m[K,
+[0.353s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12[m[K:
+[0.353s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.353s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.353s]       |  [01;35m[K^~~~~~~[m[K
+[2.609s] In file included from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Recorder.h:25[m[K,
+[2.610s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:17[m[K,
+[2.610s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:23[m[K,
+[2.610s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12[m[K:
+[2.610s] [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:54:7:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[2.610s]    54 |       [01;35m[Kconst[m[K pointer operator->() const noexcept
+[2.610s]       |       [01;35m[K^~~~~[m[K
+[2.610s] [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/containers/stack.h:113:7:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[2.611s]   113 |       [01;35m[Kconst[m[K pointer operator->() const
+[2.611s]       |       [01;35m[K^~~~~[m[K
+[2.613s] In file included from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/integrators/RK2.h:17[m[K,
+[2.613s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Ascent.h:26[m[K,
+[2.613s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/include/hunter_base/hunter_messenger.hpp:23[m[K,
+[2.613s]                  from [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:12[m[K:
+[2.613s] [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:25:14:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[2.613s]    25 |    constexpr [01;35m[Kconst[m[K value_t cx(long double v) { return static_cast<value_t>(v); }
+[2.614s]       |              [01;35m[K^~~~~[m[K
+[2.614s] [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/ascent/include/ascent/Utility.h:26:14:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on function return type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wignored-qualifiers-Wignored-qualifiers]8;;[m[K]
+[2.614s]    26 |    constexpr [01;35m[Kconst[m[K value_t operator"" _v(long double v) { return static_cast<value_t>(v); }
+[2.614s]       |              [01;35m[K^~~~~[m[K
+[2.961s] [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:[m[K In member function ‘[01m[Kbool westonrobot::HunterBaseRos::Initialize()[m[K’:
+[2.961s] [01m[K/home/karch/ws/hunter20_ws/src/hunter_ros2/hunter_base/src/hunter_base_ros.cpp:61:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kversion[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.961s]    61 |   int [01;35m[Kversion[m[K=2;
+[2.961s]       |       [01;35m[K^~~~~~~[m[K
+[8.692s] [ 50%] [32m[1mLinking CXX executable hunter_base_node[0m
+[9.411s] [100%] Built target hunter_base_node
+[9.423s] Invoked command in '/home/karch/ws/hunter20_ws/build/hunter_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/hunter20_ws/install/hunter_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_node/lib:/home/karch/ws/hokuyo_ws/install/urg_node_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_c/lib:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/karch/ws/hunter20_ws/build/hunter_base -- -j16 -l16
+[9.456s] Invoking command in '/home/karch/ws/hunter20_ws/build/hunter_base': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/hunter20_ws/install/hunter_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_node/lib:/home/karch/ws/hokuyo_ws/install/urg_node_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_c/lib:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/karch/ws/hunter20_ws/build/hunter_base
+[9.464s] -- Install configuration: ""
+[9.465s] -- Execute custom install script
+[9.465s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/ascent/cmake/ascentConfig.cmake
+[9.465s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/ascent/cmake/ascentConfigVersion.cmake
+[9.466s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/Ascent.h
+[9.466s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/ChaiEngine.h
+[9.466s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/Param.h
+[9.466s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/ParamV.h
+[9.466s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/Recorder.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/System.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/Utility.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/Vector.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/algorithms/Derivative.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/containers/stack.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/direct/State.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/DOPRI45.h
+[9.467s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/Euler.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/Midpoint.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/PC233.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/RK2.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/RK4.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/RKMM.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators/RTAM4.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_direct/Euler.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_direct/RK4.h
+[9.468s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/DOPRI45.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/Euler.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/Heun.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/Midpoint.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/ModularIntegrators.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/NCRK4.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/PC233.h
+[9.469s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/RK2.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/RK3.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/RK4.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/RTAM2.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/RTAM3.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/integrators_modular/RTAM4.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/modular/Link.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/modular/Module.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/threading/Pool.h
+[9.470s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/threading/Queue.h
+[9.471s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/timing/Sampler.h
+[9.471s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/timing/TimeAdvanced.h
+[9.471s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/include/ascent/timing/Timing.h
+[9.471s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/lib/hunter_base/hunter_base_node
+[9.471s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base//launch/hunter_base.launch.py
+[9.472s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/ament_index/resource_index/package_run_dependencies/hunter_base
+[9.472s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/ament_index/resource_index/parent_prefix_path/hunter_base
+[9.472s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/environment/ament_prefix_path.sh
+[9.472s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/environment/ament_prefix_path.dsv
+[9.472s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/environment/path.sh
+[9.472s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/environment/path.dsv
+[9.473s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/local_setup.bash
+[9.473s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/local_setup.sh
+[9.473s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/local_setup.zsh
+[9.473s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/local_setup.dsv
+[9.473s] -- Symlinking: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/package.dsv
+[9.482s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/ament_index/resource_index/packages/hunter_base
+[9.483s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig.cmake
+[9.483s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/cmake/hunter_baseConfig-version.cmake
+[9.483s] -- Up-to-date symlink: /home/karch/ws/hunter20_ws/install/hunter_base/share/hunter_base/package.xml
+[9.484s] -- Up-to-date: /home/karch/ws/hunter20_ws/install/hunter_base/share/ascent/cmake/ascentTargets.cmake
+[9.488s] Invoked command in '/home/karch/ws/hunter20_ws/build/hunter_base' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:/home/karch/ws/hunter20_ws/install/ugv_sdk:/home/karch/ws/hunter20_ws/install/hunter_msgs:/home/karch/ws/hokuyo_ws/install/urg_node:/home/karch/ws/hokuyo_ws/install/urg_node_msgs:/home/karch/ws/hokuyo_ws/install/urg_c:/home/karch/ws/hokuyo_ws/install/tfg_pkg:/home/karch/ws/hokuyo_ws/install/keyboard_control:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg:/home/karch/ws/hunter20_ws/install/hunter_base:/home/karch/ws/dev_ws/install/first_pkg LD_LIBRARY_PATH=/home/karch/ws/hunter20_ws/install/hunter_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_node/lib:/home/karch/ws/hokuyo_ws/install/urg_node_msgs/lib:/home/karch/ws/hokuyo_ws/install/urg_c/lib:/home/karch/ws/hokuyo_ws/install/coppelia_ros2_pkg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/karch/ws/hunter20_ws/build/hunter_base

@@ -1,0 +1,1 @@
+/home/karch/ws/hunter20_ws/build/hunter_msgs/ament_cmake_core/hunter_msgsConfig-version.cmake
